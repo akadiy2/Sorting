@@ -14,9 +14,7 @@ using namespace std; // this line is to indicate that the namespace library is b
 const int ARRAY_SIZE = 20;
 
 void bubblesort(int arr[]);
-void insertionsort(int arr[]);
 void quicksort(int arr[], int low, int high);
-void mergesort(int arr[]);
 int max(int arr[]);
 void swap(int *i, int *j);
 int partition(int arr[], int l, int h);
